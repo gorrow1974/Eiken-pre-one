@@ -1,0 +1,11 @@
+{
+  "schema": "jcles-today-content",
+  "schema_version": "1.0",
+  "updated_at": "2026-09-02",
+  "default": {
+    "title": "今日は、文章の骨組みを一本見つける日。",
+    "message": "知識量ではなく、前後の文がどんな関係にあるかを見抜こう。",
+    "cles_message": "最初は正確に。慣れたら30秒以内を目指す。"
+  },
+  "days": {}
+}

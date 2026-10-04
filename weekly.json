@@ -1,0 +1,16 @@
+{
+  "schema": "jcles-weekly-content",
+  "schema_version": "1.0",
+  "app_version": "1.0.0",
+  "updated_at": "2026-09-02",
+  "weeks": [
+    {
+      "id": "trial-01",
+      "label": "理一 Trial 01",
+      "title": "論理構造を見抜く10問",
+      "item_ids": ["J001", "J002", "J003", "J004", "J005", "J006", "J007", "J008", "J009", "J010"],
+      "header_image": "assets/header/jcles-header.svg",
+      "subtitle": "東大理一志望レベル。接続語だけでなく、前後の論理関係から判定する。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "jcles-user-data",
+  "schema_version": "1.0",
+  "canonical_storage_key": "jcles.userdata.v1",
+  "separation": {
+    "question_bank": "data.json",
+    "application": "index.html",
+    "storage_logic": "storage_manager.js",
+    "user_backup": "jcles_user_data_backup_YYYY-MM-DD.json"
+  },
+  "identity": {
+    "profile_key": "jcles.activeProfile.v1",
+    "learner_name_key": "jcles.learnerName.v1",
+    "log_fields": ["learner_name", "learner_id"]
+  },
+  "points": {
+    "source_of_truth": "sum of point_delta in the active learner logs",
+    "minimum": 0,
+    "developer_mode_awards_points": false
+  },
+  "rules": [
+    "J-CLES and English CLES must use different localStorage keys.",
+    "Question-bank JSON must never contain personal logs.",
+    "Import merges and de-duplicates logs; it does not overwrite history.",
+    "Backup before changing URL or domain because localStorage is origin-scoped.",
+    "The active learner name selects that learner's statistics and points."
+  ]
+}
