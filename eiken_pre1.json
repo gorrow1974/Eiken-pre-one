@@ -1,0 +1,1120 @@
+{
+  "version": "cles-eiken-pre1-original-2026-10",
+  "notice": "Original CLES practice items inspired by the current EIKEN Grade Pre-1 format. No official past-test question is reproduced.",
+  "items": [
+    {
+      "id": "P1V001",
+      "kind": "vocab",
+      "prompt": "The new policy may _____ pressure on small businesses.",
+      "choices": [
+        "alleviate",
+        "negligible",
+        "derive",
+        "substantial"
+      ],
+      "answer": "alleviate",
+      "explanation": "alleviate: ease or reduce",
+      "example": "The new policy may alleviate pressure on small businesses.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V002",
+      "kind": "vocab",
+      "prompt": "The regulation is _____ and may confuse applicants.",
+      "choices": [
+        "proponent",
+        "ambiguous",
+        "detrimental",
+        "accountable"
+      ],
+      "answer": "ambiguous",
+      "explanation": "ambiguous: unclear or open to more than one interpretation",
+      "example": "The regulation is ambiguous and may confuse applicants.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V003",
+      "kind": "vocab",
+      "prompt": "The evidence could _____ the researcher’s argument.",
+      "choices": [
+        "plausible",
+        "inhibit",
+        "allocate",
+        "bolster"
+      ],
+      "answer": "bolster",
+      "explanation": "bolster: support or strengthen",
+      "example": "The evidence could bolster the researcher’s argument.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V004",
+      "kind": "vocab",
+      "prompt": "Her explanation was _____ despite the complex topic.",
+      "choices": [
+        "arbitrary",
+        "empirical",
+        "versatile",
+        "coherent"
+      ],
+      "answer": "coherent",
+      "explanation": "coherent: logical and consistent",
+      "example": "Her explanation was coherent despite the complex topic.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V005",
+      "kind": "vocab",
+      "prompt": "The committee found the evidence _____.",
+      "choices": [
+        "feasible",
+        "elusive",
+        "compelling",
+        "inherent"
+      ],
+      "answer": "compelling",
+      "explanation": "compelling: very convincing",
+      "example": "The committee found the evidence compelling.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V006",
+      "kind": "vocab",
+      "prompt": "The mayor _____d that the original plan had flaws.",
+      "choices": [
+        "concede",
+        "detrimental",
+        "versatile",
+        "compelling"
+      ],
+      "answer": "concede",
+      "explanation": "concede: admit that something is true",
+      "example": "The mayor conceded that the original plan had flaws.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V007",
+      "kind": "vocab",
+      "prompt": "Higher fines may _____ companies from dumping waste.",
+      "choices": [
+        "intricate",
+        "deter",
+        "versatile",
+        "incentive"
+      ],
+      "answer": "deter",
+      "explanation": "deter: discourage",
+      "example": "Higher fines may deter companies from dumping waste.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V008",
+      "kind": "vocab",
+      "prompt": "Without maintenance, the bridge may _____ rapidly.",
+      "choices": [
+        "ambiguous",
+        "intricate",
+        "undermine",
+        "deteriorate"
+      ],
+      "answer": "deteriorate",
+      "explanation": "deteriorate: become worse",
+      "example": "Without maintenance, the bridge may deteriorate rapidly.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V009",
+      "kind": "vocab",
+      "prompt": "Auditors found a _____ between the two reports.",
+      "choices": [
+        "discrepancy",
+        "viable",
+        "inhibit",
+        "profound"
+      ],
+      "answer": "discrepancy",
+      "explanation": "discrepancy: a difference that should not exist",
+      "example": "Auditors found a discrepancy between the two reports.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V010",
+      "kind": "vocab",
+      "prompt": "A permanent solution has remained _____.",
+      "choices": [
+        "elusive",
+        "curtail",
+        "stagnant",
+        "alleviate"
+      ],
+      "answer": "elusive",
+      "explanation": "elusive: difficult to find or achieve",
+      "example": "A permanent solution has remained elusive.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V011",
+      "kind": "vocab",
+      "prompt": "Engineers concluded that the proposal was technically _____.",
+      "choices": [
+        "vulnerable",
+        "feasible",
+        "negligible",
+        "plausible"
+      ],
+      "answer": "feasible",
+      "explanation": "feasible: possible and practical",
+      "example": "Engineers concluded that the proposal was technically feasible.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V012",
+      "kind": "vocab",
+      "prompt": "The program aims to _____ cooperation among local firms.",
+      "choices": [
+        "resilient",
+        "inhibit",
+        "foster",
+        "inherent"
+      ],
+      "answer": "foster",
+      "explanation": "foster: encourage development",
+      "example": "The program aims to foster cooperation among local firms.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V013",
+      "kind": "vocab",
+      "prompt": "A lack of data can _____ effective decision-making.",
+      "choices": [
+        "hamper",
+        "tentative",
+        "viable",
+        "feasible"
+      ],
+      "answer": "hamper",
+      "explanation": "hamper: make progress difficult",
+      "example": "A lack of data can hamper effective decision-making.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V014",
+      "kind": "vocab",
+      "prompt": "Some uncertainty is _____ in long-term forecasting.",
+      "choices": [
+        "inherent",
+        "alleviate",
+        "undermine",
+        "coherent"
+      ],
+      "answer": "inherent",
+      "explanation": "inherent: existing as a natural part",
+      "example": "Some uncertainty is inherent in long-term forecasting.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V015",
+      "kind": "vocab",
+      "prompt": "Trees can help _____ the urban heat-island effect.",
+      "choices": [
+        "resilient",
+        "mitigate",
+        "incentive",
+        "inhibit"
+      ],
+      "answer": "mitigate",
+      "explanation": "mitigate: make less harmful",
+      "example": "Trees can help mitigate the urban heat-island effect.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V016",
+      "kind": "vocab",
+      "prompt": "Many devices become _____ within a few years.",
+      "choices": [
+        "prevalent",
+        "compelling",
+        "substantial",
+        "obsolete"
+      ],
+      "answer": "obsolete",
+      "explanation": "obsolete: no longer useful because something newer exists",
+      "example": "Many devices become obsolete within a few years.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V017",
+      "kind": "vocab",
+      "prompt": "The scientist offered a _____ explanation for the decline.",
+      "choices": [
+        "inevitable",
+        "empirical",
+        "curtail",
+        "plausible"
+      ],
+      "answer": "plausible",
+      "explanation": "plausible: seemingly reasonable or likely",
+      "example": "The scientist offered a plausible explanation for the decline.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V018",
+      "kind": "vocab",
+      "prompt": "Remote work is increasingly _____ in large cities.",
+      "choices": [
+        "elusive",
+        "arbitrary",
+        "prevalent",
+        "plausible"
+      ],
+      "answer": "prevalent",
+      "explanation": "prevalent: common or widespread",
+      "example": "Remote work is increasingly prevalent in large cities.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V019",
+      "kind": "vocab",
+      "prompt": "Communities need _____ infrastructure after disasters.",
+      "choices": [
+        "substantial",
+        "resilient",
+        "proponent",
+        "tentative"
+      ],
+      "answer": "resilient",
+      "explanation": "resilient: able to recover quickly",
+      "example": "Communities need resilient infrastructure after disasters.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V020",
+      "kind": "vocab",
+      "prompt": "Regulators will _____ the company’s safety record.",
+      "choices": [
+        "derive",
+        "scrutinize",
+        "concede",
+        "conventional"
+      ],
+      "answer": "scrutinize",
+      "explanation": "scrutinize: examine very carefully",
+      "example": "Regulators will scrutinize the company’s safety record.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V021",
+      "kind": "vocab",
+      "prompt": "The project requires a _____ initial investment.",
+      "choices": [
+        "compelling",
+        "substantial",
+        "proponent",
+        "incentive"
+      ],
+      "answer": "substantial",
+      "explanation": "substantial: large or important",
+      "example": "The project requires a substantial initial investment.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V022",
+      "kind": "vocab",
+      "prompt": "The two sides reached a _____ agreement.",
+      "choices": [
+        "plausible",
+        "mitigate",
+        "tentative",
+        "proponent"
+      ],
+      "answer": "tentative",
+      "explanation": "tentative: not final or certain",
+      "example": "The two sides reached a tentative agreement.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V023",
+      "kind": "vocab",
+      "prompt": "False information can _____ public trust.",
+      "choices": [
+        "stagnant",
+        "empirical",
+        "inevitable",
+        "undermine"
+      ],
+      "answer": "undermine",
+      "explanation": "undermine: weaken gradually",
+      "example": "False information can undermine public trust.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V024",
+      "kind": "vocab",
+      "prompt": "Solar power is now a _____ option for many households.",
+      "choices": [
+        "negligible",
+        "derive",
+        "repercussion",
+        "viable"
+      ],
+      "answer": "viable",
+      "explanation": "viable: capable of working successfully",
+      "example": "Solar power is now a viable option for many households.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V025",
+      "kind": "vocab",
+      "prompt": "Coastal towns are _____ to rising sea levels.",
+      "choices": [
+        "mitigate",
+        "profound",
+        "inherent",
+        "vulnerable"
+      ],
+      "answer": "vulnerable",
+      "explanation": "vulnerable: easily harmed",
+      "example": "Coastal towns are vulnerable to rising sea levels.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V026",
+      "kind": "vocab",
+      "prompt": "The city will _____ more funds to public transportation.",
+      "choices": [
+        "ambiguous",
+        "sustainable",
+        "viable",
+        "allocate"
+      ],
+      "answer": "allocate",
+      "explanation": "allocate: distribute for a purpose",
+      "example": "The city will allocate more funds to public transportation.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V027",
+      "kind": "vocab",
+      "prompt": "Officials hope to _____ unnecessary energy use.",
+      "choices": [
+        "stagnant",
+        "curtail",
+        "repercussion",
+        "feasible"
+      ],
+      "answer": "curtail",
+      "explanation": "curtail: reduce or limit",
+      "example": "Officials hope to curtail unnecessary energy use.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V028",
+      "kind": "vocab",
+      "prompt": "Many medicines are _____d from natural compounds.",
+      "choices": [
+        "viable",
+        "profound",
+        "derive",
+        "foster"
+      ],
+      "answer": "derive",
+      "explanation": "derive: obtain from a source",
+      "example": "Many medicines are derived from natural compounds.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V029",
+      "kind": "vocab",
+      "prompt": "Vaccination campaigns helped _____ the disease in several regions.",
+      "choices": [
+        "exacerbate",
+        "eradicate",
+        "stagnant",
+        "undermine"
+      ],
+      "answer": "eradicate",
+      "explanation": "eradicate: eliminate completely",
+      "example": "Vaccination campaigns helped eradicate the disease in several regions.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V030",
+      "kind": "vocab",
+      "prompt": "Extreme heat can _____ existing health risks.",
+      "choices": [
+        "negligible",
+        "hamper",
+        "exacerbate",
+        "alleviate"
+      ],
+      "answer": "exacerbate",
+      "explanation": "exacerbate: make a problem worse",
+      "example": "Extreme heat can exacerbate existing health risks.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V031",
+      "kind": "vocab",
+      "prompt": "Complex procedures may _____ innovation.",
+      "choices": [
+        "discrepancy",
+        "eradicate",
+        "intricate",
+        "impede"
+      ],
+      "answer": "impede",
+      "explanation": "impede: delay or obstruct",
+      "example": "Complex procedures may impede innovation.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V032",
+      "kind": "vocab",
+      "prompt": "Tax credits provide an _____ to install solar panels.",
+      "choices": [
+        "incentive",
+        "foster",
+        "plausible",
+        "resilient"
+      ],
+      "answer": "incentive",
+      "explanation": "incentive: something that motivates action",
+      "example": "Tax credits provide an incentive to install solar panels.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V033",
+      "kind": "vocab",
+      "prompt": "Some degree of change is _____.",
+      "choices": [
+        "inherent",
+        "inevitable",
+        "tentative",
+        "profound"
+      ],
+      "answer": "inevitable",
+      "explanation": "inevitable: certain to happen",
+      "example": "Some degree of change is inevitable.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V034",
+      "kind": "vocab",
+      "prompt": "The ecosystem contains an _____ network of relationships.",
+      "choices": [
+        "accountable",
+        "conventional",
+        "intricate",
+        "negligible"
+      ],
+      "answer": "intricate",
+      "explanation": "intricate: very complicated and detailed",
+      "example": "The ecosystem contains an intricate network of relationships.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V035",
+      "kind": "vocab",
+      "prompt": "The measured difference was _____.",
+      "choices": [
+        "negligible",
+        "scrutinize",
+        "impede",
+        "detrimental"
+      ],
+      "answer": "negligible",
+      "explanation": "negligible: too small to be important",
+      "example": "The measured difference was negligible.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V036",
+      "kind": "vocab",
+      "prompt": "_____s argue that the reform will improve access.",
+      "choices": [
+        "proponent",
+        "exacerbate",
+        "profound",
+        "negligible"
+      ],
+      "answer": "proponent",
+      "explanation": "proponent: a supporter of an idea",
+      "example": "Proponents argue that the reform will improve access.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V037",
+      "kind": "vocab",
+      "prompt": "The decision could have economic _____s.",
+      "choices": [
+        "deteriorate",
+        "repercussion",
+        "derive",
+        "allocate"
+      ],
+      "answer": "repercussion",
+      "explanation": "repercussion: an unintended consequence",
+      "example": "The decision could have economic repercussions.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V038",
+      "kind": "vocab",
+      "prompt": "The medicine underwent _____ safety testing.",
+      "choices": [
+        "hamper",
+        "rigorous",
+        "negligible",
+        "plausible"
+      ],
+      "answer": "rigorous",
+      "explanation": "rigorous: extremely thorough",
+      "example": "The medicine underwent rigorous safety testing.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V039",
+      "kind": "vocab",
+      "prompt": "Wages remained _____ for several years.",
+      "choices": [
+        "curtail",
+        "rigorous",
+        "negligible",
+        "stagnant"
+      ],
+      "answer": "stagnant",
+      "explanation": "stagnant: not growing or developing",
+      "example": "Wages remained stagnant for several years.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V040",
+      "kind": "vocab",
+      "prompt": "The town is seeking a more _____ transport system.",
+      "choices": [
+        "sustainable",
+        "profound",
+        "inhibit",
+        "concede"
+      ],
+      "answer": "sustainable",
+      "explanation": "sustainable: able to continue without exhausting resources",
+      "example": "The town is seeking a more sustainable transport system.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V041",
+      "kind": "vocab",
+      "prompt": "The region experienced _____ rainfall.",
+      "choices": [
+        "unprecedented",
+        "substantial",
+        "tentative",
+        "deteriorate"
+      ],
+      "answer": "unprecedented",
+      "explanation": "unprecedented: never experienced before",
+      "example": "The region experienced unprecedented rainfall.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V042",
+      "kind": "vocab",
+      "prompt": "The material is lightweight and _____.",
+      "choices": [
+        "eradicate",
+        "versatile",
+        "resilient",
+        "incentive"
+      ],
+      "answer": "versatile",
+      "explanation": "versatile: useful in many different ways",
+      "example": "The material is lightweight and versatile.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V043",
+      "kind": "vocab",
+      "prompt": "Consumers remain _____ of sharing personal data.",
+      "choices": [
+        "arbitrary",
+        "compelling",
+        "wary",
+        "curtail"
+      ],
+      "answer": "wary",
+      "explanation": "wary: cautious because of possible danger",
+      "example": "Consumers remain wary of sharing personal data.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V044",
+      "kind": "vocab",
+      "prompt": "Public agencies should be _____ for how they spend money.",
+      "choices": [
+        "accountable",
+        "impede",
+        "discrepancy",
+        "viable"
+      ],
+      "answer": "accountable",
+      "explanation": "accountable: responsible and expected to explain actions",
+      "example": "Public agencies should be accountable for how they spend money.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V045",
+      "kind": "vocab",
+      "prompt": "Critics called the rule _____.",
+      "choices": [
+        "resilient",
+        "concede",
+        "derive",
+        "arbitrary"
+      ],
+      "answer": "arbitrary",
+      "explanation": "arbitrary: based on random choice rather than reason",
+      "example": "Critics called the rule arbitrary.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V046",
+      "kind": "vocab",
+      "prompt": "The device uses less power than _____ models.",
+      "choices": [
+        "conventional",
+        "intricate",
+        "profound",
+        "stagnant"
+      ],
+      "answer": "conventional",
+      "explanation": "conventional: traditional or usual",
+      "example": "The device uses less power than conventional models.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V047",
+      "kind": "vocab",
+      "prompt": "Long periods of isolation can be _____ to well-being.",
+      "choices": [
+        "feasible",
+        "detrimental",
+        "rigorous",
+        "negligible"
+      ],
+      "answer": "detrimental",
+      "explanation": "detrimental: harmful",
+      "example": "Long periods of isolation can be detrimental to well-being.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V048",
+      "kind": "vocab",
+      "prompt": "The claim is supported by _____ evidence.",
+      "choices": [
+        "empirical",
+        "sustainable",
+        "curtail",
+        "compelling"
+      ],
+      "answer": "empirical",
+      "explanation": "empirical: based on observation or experiment",
+      "example": "The claim is supported by empirical evidence.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V049",
+      "kind": "vocab",
+      "prompt": "Fear of failure can _____ creativity.",
+      "choices": [
+        "obsolete",
+        "derive",
+        "inhibit",
+        "proponent"
+      ],
+      "answer": "inhibit",
+      "explanation": "inhibit: prevent or slow down",
+      "example": "Fear of failure can inhibit creativity.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1V050",
+      "kind": "vocab",
+      "prompt": "The discovery had a _____ effect on medicine.",
+      "choices": [
+        "profound",
+        "inevitable",
+        "inhibit",
+        "discrepancy"
+      ],
+      "answer": "profound",
+      "explanation": "profound: very great or intense",
+      "example": "The discovery had a profound effect on medicine.",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "P1R001",
+      "kind": "reading",
+      "title": "Urban Cooling",
+      "passage": "Cities often plant trees to reduce summer heat. Tree canopies provide shade, while water released from leaves can cool the surrounding air. Yet planting programs do not automatically benefit every neighborhood. Wealthier districts may already have mature trees and enough space for new ones, whereas densely built areas often lack suitable land. Some cities therefore use heat maps and public-health data to identify blocks where additional shade could have the greatest effect. This approach can improve fairness, but it also requires long-term maintenance. Young trees need water and care for years before they provide substantial cooling.",
+      "prompt": "Why do some cities use heat maps when planning tree programs?",
+      "choices": [
+        "To identify places where shade is most needed",
+        "To measure the age of every tree",
+        "To replace public-health surveys",
+        "To determine which trees grow fastest"
+      ],
+      "answer_index": 0,
+      "explanation": "Answer from the passage; check the claim against the relevant sentence rather than relying on keywords.",
+      "skill": "reading"
+    },
+    {
+      "id": "P1R002",
+      "kind": "reading",
+      "title": "Urban Cooling",
+      "passage": "Cities often plant trees to reduce summer heat. Tree canopies provide shade, while water released from leaves can cool the surrounding air. Yet planting programs do not automatically benefit every neighborhood. Wealthier districts may already have mature trees and enough space for new ones, whereas densely built areas often lack suitable land. Some cities therefore use heat maps and public-health data to identify blocks where additional shade could have the greatest effect. This approach can improve fairness, but it also requires long-term maintenance. Young trees need water and care for years before they provide substantial cooling.",
+      "prompt": "What challenge does the passage emphasize?",
+      "choices": [
+        "Trees immediately cool all neighborhoods equally",
+        "Dense districts may lack space and young trees require care",
+        "Wealthier areas refuse to plant trees",
+        "Heat maps cannot be used with health data"
+      ],
+      "answer_index": 1,
+      "explanation": "Answer from the passage; check the claim against the relevant sentence rather than relying on keywords.",
+      "skill": "reading"
+    },
+    {
+      "id": "P1R003",
+      "kind": "reading",
+      "title": "Repairing Electronics",
+      "passage": "Many electronic products are difficult to repair because components are glued together or replacement parts are unavailable. Supporters of right-to-repair rules argue that manufacturers should provide parts, tools, and manuals to consumers and independent repair shops. They say this could extend product life and reduce electronic waste. Manufacturers, however, warn that poorly performed repairs may create safety or cybersecurity risks. Some policymakers have responded by proposing rules that require access to repair information while allowing restrictions for genuinely sensitive components. The debate therefore concerns not simply whether repair is desirable, but how access can be expanded without creating new risks.",
+      "prompt": "What is the central issue in the debate?",
+      "choices": [
+        "Whether electronics should be banned",
+        "How to expand repair access while managing risks",
+        "Whether manufacturers should stop publishing manuals",
+        "How to make products more expensive"
+      ],
+      "answer_index": 1,
+      "explanation": "Answer from the passage; check the claim against the relevant sentence rather than relying on keywords.",
+      "skill": "reading"
+    },
+    {
+      "id": "P1R004",
+      "kind": "reading",
+      "title": "Repairing Electronics",
+      "passage": "Many electronic products are difficult to repair because components are glued together or replacement parts are unavailable. Supporters of right-to-repair rules argue that manufacturers should provide parts, tools, and manuals to consumers and independent repair shops. They say this could extend product life and reduce electronic waste. Manufacturers, however, warn that poorly performed repairs may create safety or cybersecurity risks. Some policymakers have responded by proposing rules that require access to repair information while allowing restrictions for genuinely sensitive components. The debate therefore concerns not simply whether repair is desirable, but how access can be expanded without creating new risks.",
+      "prompt": "What do supporters expect right-to-repair rules to do?",
+      "choices": [
+        "Shorten product life",
+        "Increase electronic waste",
+        "Make repairs more accessible",
+        "Eliminate cybersecurity risks"
+      ],
+      "answer_index": 2,
+      "explanation": "Answer from the passage; check the claim against the relevant sentence rather than relying on keywords.",
+      "skill": "reading"
+    },
+    {
+      "id": "P1R005",
+      "kind": "reading",
+      "title": "Citizen Science",
+      "passage": "Professional researchers cannot always collect observations across a large geographic area for many years. Citizen-science projects address this limitation by asking volunteers to record information such as bird sightings, rainfall, or flowering dates. The resulting datasets can be enormous, but volunteer observations vary in accuracy. Researchers therefore design identification guides, training tasks, and statistical methods to reduce errors. When these safeguards are used, citizen science can reveal broad patterns that would otherwise be expensive to detect. It can also strengthen public interest in science, although participation may be uneven across regions and social groups.",
+      "prompt": "Why are safeguards used in citizen-science projects?",
+      "choices": [
+        "To reduce errors in volunteer observations",
+        "To prevent volunteers from seeing results",
+        "To make datasets smaller",
+        "To replace professional researchers"
+      ],
+      "answer_index": 0,
+      "explanation": "Answer from the passage; check the claim against the relevant sentence rather than relying on keywords.",
+      "skill": "reading"
+    },
+    {
+      "id": "P1R006",
+      "kind": "reading",
+      "title": "Citizen Science",
+      "passage": "Professional researchers cannot always collect observations across a large geographic area for many years. Citizen-science projects address this limitation by asking volunteers to record information such as bird sightings, rainfall, or flowering dates. The resulting datasets can be enormous, but volunteer observations vary in accuracy. Researchers therefore design identification guides, training tasks, and statistical methods to reduce errors. When these safeguards are used, citizen science can reveal broad patterns that would otherwise be expensive to detect. It can also strengthen public interest in science, although participation may be uneven across regions and social groups.",
+      "prompt": "According to the passage, what is one limitation?",
+      "choices": [
+        "No broad patterns can be detected",
+        "Participation may not be evenly distributed",
+        "Volunteers cannot record flowering dates",
+        "Professional researchers reject large datasets"
+      ],
+      "answer_index": 1,
+      "explanation": "Answer from the passage; check the claim against the relevant sentence rather than relying on keywords.",
+      "skill": "reading"
+    },
+    {
+      "id": "P1R007",
+      "kind": "reading",
+      "title": "Four-Day Workweek",
+      "passage": "Trials of four-day workweeks have attracted attention from employers seeking to improve recruitment and reduce burnout. In many trials, employees receive the same pay while working fewer hours, so organizations must redesign meetings and workflows rather than simply compressing five days of tasks into four. Some companies report stable productivity and improved employee satisfaction. These findings, however, may not apply equally to hospitals, factories, or customer-service operations that require continuous coverage. Researchers therefore caution against treating the policy as a universal solution. Its success appears to depend on job design, staffing, and how productivity is measured.",
+      "prompt": "What does the passage suggest is important for a successful four-day week?",
+      "choices": [
+        "Simply doing five days of work in four",
+        "Redesigning work and considering job requirements",
+        "Reducing employee pay",
+        "Avoiding productivity measurement"
+      ],
+      "answer_index": 1,
+      "explanation": "Answer from the passage; check the claim against the relevant sentence rather than relying on keywords.",
+      "skill": "reading"
+    },
+    {
+      "id": "P1R008",
+      "kind": "reading",
+      "title": "Four-Day Workweek",
+      "passage": "Trials of four-day workweeks have attracted attention from employers seeking to improve recruitment and reduce burnout. In many trials, employees receive the same pay while working fewer hours, so organizations must redesign meetings and workflows rather than simply compressing five days of tasks into four. Some companies report stable productivity and improved employee satisfaction. These findings, however, may not apply equally to hospitals, factories, or customer-service operations that require continuous coverage. Researchers therefore caution against treating the policy as a universal solution. Its success appears to depend on job design, staffing, and how productivity is measured.",
+      "prompt": "Why do researchers urge caution?",
+      "choices": [
+        "All trials showed lower satisfaction",
+        "Continuous-coverage jobs may face different constraints",
+        "Recruitment always becomes harder",
+        "Hospitals already use four-day weeks"
+      ],
+      "answer_index": 1,
+      "explanation": "Answer from the passage; check the claim against the relevant sentence rather than relying on keywords.",
+      "skill": "reading"
+    },
+    {
+      "id": "P1R009",
+      "kind": "reading",
+      "title": "AI and Hiring",
+      "passage": "Employers increasingly use software to screen job applications. Automated tools can process large numbers of candidates quickly and may apply the same formal criteria to every application. Nevertheless, consistency does not guarantee fairness. If a system is trained on historical hiring decisions that reflect past inequalities, it may reproduce those patterns. In addition, applicants may not know why they were rejected. Some experts therefore recommend regular audits, documentation of selection criteria, and a meaningful way for candidates to request human review. Such measures do not eliminate every problem, but they can make automated hiring more accountable.",
+      "prompt": "Why can an automated hiring system still be unfair?",
+      "choices": [
+        "It cannot process many applications",
+        "Historical data may contain past inequalities",
+        "It always uses different criteria",
+        "Applicants write too many documents"
+      ],
+      "answer_index": 1,
+      "explanation": "Answer from the passage; check the claim against the relevant sentence rather than relying on keywords.",
+      "skill": "reading"
+    },
+    {
+      "id": "P1R010",
+      "kind": "reading",
+      "title": "AI and Hiring",
+      "passage": "Employers increasingly use software to screen job applications. Automated tools can process large numbers of candidates quickly and may apply the same formal criteria to every application. Nevertheless, consistency does not guarantee fairness. If a system is trained on historical hiring decisions that reflect past inequalities, it may reproduce those patterns. In addition, applicants may not know why they were rejected. Some experts therefore recommend regular audits, documentation of selection criteria, and a meaningful way for candidates to request human review. Such measures do not eliminate every problem, but they can make automated hiring more accountable.",
+      "prompt": "What measure is recommended?",
+      "choices": [
+        "Removing all human review",
+        "Keeping selection criteria secret",
+        "Regular audits and access to human review",
+        "Training only on rejected candidates"
+      ],
+      "answer_index": 2,
+      "explanation": "Answer from the passage; check the claim against the relevant sentence rather than relying on keywords.",
+      "skill": "reading"
+    },
+    {
+      "id": "P1C001",
+      "kind": "cloze",
+      "prompt": "Public libraries have expanded digital services in recent years. This shift has made information easier to access from home. _____, libraries still serve an important physical role by providing quiet study areas and community programs.",
+      "choices": [
+        "For instance",
+        "Nevertheless",
+        "As a result",
+        "Similarly"
+      ],
+      "answer_index": 1,
+      "explanation": "Focus on the logical relationship: contrast.",
+      "skill": "contrast"
+    },
+    {
+      "id": "P1C002",
+      "kind": "cloze",
+      "prompt": "A company introduced flexible starting times. Employees could avoid the busiest commuting hours. _____, reports of late arrival fell significantly.",
+      "choices": [
+        "As a result",
+        "In contrast",
+        "For example",
+        "Meanwhile"
+      ],
+      "answer_index": 0,
+      "explanation": "Focus on the logical relationship: cause-effect.",
+      "skill": "cause-effect"
+    },
+    {
+      "id": "P1C003",
+      "kind": "cloze",
+      "prompt": "Some wetlands can absorb large amounts of rainwater. _____, protecting them may reduce flood damage in nearby communities.",
+      "choices": [
+        "However",
+        "Therefore",
+        "Otherwise",
+        "Likewise"
+      ],
+      "answer_index": 1,
+      "explanation": "Focus on the logical relationship: cause-effect.",
+      "skill": "cause-effect"
+    },
+    {
+      "id": "P1C004",
+      "kind": "cloze",
+      "prompt": "The first experiment produced an unexpected result. The researchers repeated it with new equipment _____ determine whether the finding was reliable.",
+      "choices": [
+        "in order to",
+        "despite",
+        "rather than",
+        "as though"
+      ],
+      "answer_index": 0,
+      "explanation": "Focus on the logical relationship: purpose.",
+      "skill": "purpose"
+    },
+    {
+      "id": "P1C005",
+      "kind": "cloze",
+      "prompt": "Online courses can reach students who live far from universities. _____, they may be difficult for learners who lack reliable internet access.",
+      "choices": [
+        "Consequently",
+        "Moreover",
+        "However",
+        "For example"
+      ],
+      "answer_index": 2,
+      "explanation": "Focus on the logical relationship: contrast.",
+      "skill": "contrast"
+    },
+    {
+      "id": "P1C006",
+      "kind": "cloze",
+      "prompt": "The city did not ban cars from the center. _____, it increased parking fees and improved bus services to discourage unnecessary driving.",
+      "choices": [
+        "Instead",
+        "Therefore",
+        "Likewise",
+        "Besides"
+      ],
+      "answer_index": 0,
+      "explanation": "Focus on the logical relationship: alternative.",
+      "skill": "alternative"
+    },
+    {
+      "id": "P1C007",
+      "kind": "cloze",
+      "prompt": "The medication was effective in a small initial study. _____, a much larger trial is needed before firm conclusions can be drawn.",
+      "choices": [
+        "Even so",
+        "For example",
+        "As a result",
+        "Similarly"
+      ],
+      "answer_index": 0,
+      "explanation": "Focus on the logical relationship: qualification.",
+      "skill": "qualification"
+    },
+    {
+      "id": "P1C008",
+      "kind": "cloze",
+      "prompt": "Researchers installed sensors throughout the forest _____ they could monitor changes in soil moisture continuously.",
+      "choices": [
+        "so that",
+        "even if",
+        "whereas",
+        "unless"
+      ],
+      "answer_index": 0,
+      "explanation": "Focus on the logical relationship: purpose.",
+      "skill": "purpose"
+    },
+    {
+      "id": "P1C009",
+      "kind": "cloze",
+      "prompt": "Demand for recycled material has risen. _____, several manufacturers are investing in new processing facilities.",
+      "choices": [
+        "By contrast",
+        "Consequently",
+        "Nevertheless",
+        "For instance"
+      ],
+      "answer_index": 1,
+      "explanation": "Focus on the logical relationship: cause-effect.",
+      "skill": "cause-effect"
+    },
+    {
+      "id": "P1C010",
+      "kind": "cloze",
+      "prompt": "The policy may lower costs in the short term. _____, critics argue that it could create larger expenses later.",
+      "choices": [
+        "In addition",
+        "On the other hand",
+        "Therefore",
+        "For example"
+      ],
+      "answer_index": 1,
+      "explanation": "Focus on the logical relationship: contrast.",
+      "skill": "contrast"
+    }
+  ],
+  "writing": [
+    {
+      "id": "P1S001",
+      "kind": "summary",
+      "source": "Some cities have introduced shared bicycle systems to reduce car use. Supporters say the systems make short trips convenient and can connect commuters to railway stations. They may also reduce traffic and air pollution when people choose bicycles instead of cars. However, the programs are expensive to operate because bicycles must be repaired and redistributed among stations. In addition, usage often falls in bad weather, making revenue uncertain. Cities are experimenting with electric bicycles and better station placement to increase use.",
+      "prompt": "Summarize the passage in your own words. Aim for 60–70 words.",
+      "target_words": "60–70",
+      "checkpoints": [
+        "benefit/convenience or connection",
+        "environment/traffic benefit",
+        "operating or weather challenge",
+        "response/improvement"
+      ]
+    },
+    {
+      "id": "P1S002",
+      "kind": "summary",
+      "source": "Food-sharing applications connect stores and restaurants with customers willing to buy unsold food at a discount near closing time. The services can reduce food waste and allow consumers to purchase meals cheaply. Businesses may also recover some of the cost of products that would otherwise be discarded. Critics note, however, that users cannot always choose exactly what they receive and that collection times may be inconvenient. The applications also address surplus food after it has been produced rather than preventing overproduction in the first place.",
+      "prompt": "Summarize the passage in your own words. Aim for 60–70 words.",
+      "target_words": "60–70",
+      "checkpoints": [
+        "how service works",
+        "waste/cost benefit",
+        "consumer limitation",
+        "does not prevent overproduction"
+      ]
+    },
+    {
+      "id": "P1E001",
+      "kind": "essay",
+      "topic": "Should local governments do more to encourage people to use public transportation?",
+      "points": [
+        "Environment",
+        "Cost",
+        "Convenience",
+        "Local economy"
+      ],
+      "prompt": "Write an essay giving your opinion. Use TWO of the points as support."
+    },
+    {
+      "id": "P1E002",
+      "kind": "essay",
+      "topic": "Should companies allow employees to work from home whenever their jobs permit it?",
+      "points": [
+        "Productivity",
+        "Communication",
+        "Family life",
+        "Cost"
+      ],
+      "prompt": "Write an essay giving your opinion. Use TWO of the points as support."
+    },
+    {
+      "id": "P1E003",
+      "kind": "essay",
+      "topic": "Should schools spend more time teaching students how to evaluate information online?",
+      "points": [
+        "Education",
+        "Technology",
+        "Safety",
+        "Time"
+      ],
+      "prompt": "Write an essay giving your opinion. Use TWO of the points as support."
+    }
+  ]
+}

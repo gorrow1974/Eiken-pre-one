@@ -1,33 +1,55 @@
-# J-CLES 東大理一・日本語論理読解 Trial 01
+# CLES Word World v1.4.1
 
-Updated: 2026-09-02
+Updated: 2026-07-19
 
-日本語文章の論理構造を、8つのFunctionから判断する学習アプリです。英語版CLESとはログと設定を完全に分離しています。
+## Bug fixes
+- 設定画面が開かない不具合を修正
+- 初回の学習者／管理者選択を実装
+- 設定からモードと表示名を変更可能
+- 「今日はこんな日」が読み込み中のままになる不具合を修正
+- today.json未登録日には既定文を表示
+- 既定ヘッダー画像をトップに表示
+- 会話上の個人的呼称を製品UIから削除
+- 学習者ログと管理・確認ログの分離を維持
 
-## Trial 01
-
-- 東大理一志望レベルを想定したオリジナル10問
-- AI、生命科学、科学哲学、環境政策、数学、言語、リスク管理などの抽象文
-- 接続語だけではなく、前後の文の役割から判定
-- Function：VS / WHY / SO / EX / DATA / WHAT / NEXT / DECIDE
-- 2段階ヒント、正答率、判断時間、理解度、弱点レビューを記録
-- 表示名ごとに学習ログとポイントを分離
-
-## ポイントルール
-
-| レベル | ポイント帯 | 正解 | 不正解 |
-|---|---:|---:|---:|
-| LEVEL 1 ウォームアップ | 0–49 | +1 | 0 |
-| LEVEL 2 チャレンジ | 50–149 | +3 | -1 |
-| LEVEL 3 アドバンス | 150–299 | +5 | -3 |
-| LEVEL 4 ハイリスク | 300以上 | +10 | -10 |
-
-- ポイントは0未満になりません。
-- 管理・確認モードではポイントは増減しません。
-- 同じ端末で複数人が使う場合は、それぞれ別の表示名を固定してください。
-
-## 公開方法
-
-ZIP内の全ファイルとフォルダを、公開先のリポジトリ直下へアップロードしてください。英語版と併設する場合は `jcles` などの別フォルダに配置してください。
-
+## Deploy
+ZIP内の全ファイル・フォルダをリポジトリ直下へ上書きしてください。
 Safariで古い表示が残る場合は、ページを再読み込みしてください。
+
+## v1.4.2 — 2026-07-19
+
+- `today.json` を他データと独立して読み込み
+- 日本時間で「今日はこんな日」を判定
+- 読み込み失敗時も必ず既定メッセージを表示
+- JSON読込失敗がトップ・設定・ログへ連鎖しない構造に変更
+- 設定画面にログ件数を表示
+- 学習データのバックアップ／復元を追加
+- 学習ログと管理・確認ログを個別に消去可能
+- 設定変更後も保存済みログを維持
+
+## v1.5.0 — Archive First / 2026-07-20
+
+- 通常設定から削除操作を除外
+- バックアップ、復元、アーカイブ、ログ統計を前面表示
+- アーカイブJSONに期間名と集計情報を保存
+- 管理・確認ログは学習レビューから除外
+- 削除操作は詳細設定へ移動
+- 学習ログ初期化は確認ダイアログとDELETE入力を必須化
+- 保存スキーマ `cles.userdata.v1` を維持
+
+## v1.6.0 — QA Agent / Release Gate
+
+- Week05 Q041〜Q050の同一内容を修正
+- `qa_agent.py` を追加
+- GitHub Actionsでpush／Pull Requestごとに自動検査
+- エラーが1件でもある場合はリリース失敗
+- `qa_report.json` と `QA_REPORT.md` を生成
+- VOC-001と恒久対策を記録
+
+手動実行: `python qa_agent.py`
+
+## v1.8.0 — Verified logging hotfix
+- Learning answers now use an append-and-verify storage path.
+- A failed localStorage write/read verification stops progression instead of silently losing the answer.
+- Added storage health diagnostics API for release/debug checks.
+- Important: learning data is browser-local. It does not automatically sync between devices or browsers.

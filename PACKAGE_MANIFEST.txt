@@ -1,0 +1,31 @@
+CLES Word World GitHub Pages Release Package
+Version: 1.6.0
+Purpose: Production site + QA release gate
+
+Application:
+  index.html
+  app.js
+  storage_manager.js
+
+Content:
+  data.json
+  weekly.json
+  today.json
+  assets/header/default.jpeg
+
+Storage specification:
+  storage_spec.json
+  user_data_template.json
+
+Quality assurance:
+  qa_agent.py
+  run_qa.sh
+  qa_report.json
+  QA_REPORT.md
+  RELEASE_CHECKLIST.md
+  .github/workflows/qa.yml
+
+Deployment:
+  .nojekyll
+  DEPLOY_GUIDE.md
+  README.md

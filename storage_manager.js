@@ -1,19 +1,30 @@
 /**
- * J-CLES Common Storage Specification
- * Schema: jcles-user-data / 1.0
+ * CLES Common Storage Specification
+ * Schema: cles-user-data / 1.0
  *
  * Question content lives in data.json.
  * User learning data lives in a stable localStorage namespace and can be
  * exported/imported independently of app releases.
  */
 const CLESStorage = (() => {
-  const KEY = 'jcles.userdata.v1';
-  const SCHEMA = 'jcles-user-data';
+  const KEY = 'cles.userdata.v1';
+  const SCHEMA = 'cles-user-data';
   const SCHEMA_VERSION = '1.0';
 
-  const LEGACY_LOG_KEYS = [];
+  const LEGACY_LOG_KEYS = [
+    'clesv1logs',
+    'cles_v1_logs',
+    'clesThinkVs5Logs'
+  ];
 
-  const LEGACY_STATE_KEYS = {};
+  const LEGACY_STATE_KEYS = {
+    idx: ['clesv1idx'],
+    order: ['clesv1order'],
+    sessionOrder: ['clesv1sessionOrder', 'cles_v1_sessionOrder'],
+    sessionPos: ['clesv1sessionPos', 'cles_v1_sessionPos'],
+    sessionId: ['clesv1activeSession', 'cles_v1_sessionId'],
+    lastWeak: ['clesv1lastWeak', 'cles_v1_lastWeak']
+  };
 
   function emptyData() {
     return {
@@ -107,6 +118,16 @@ const CLESStorage = (() => {
     return data;
   }
 
+  function writeAndVerify(next) {
+    const raw = JSON.stringify(next);
+    localStorage.setItem(KEY, raw);
+    const verifyRaw = localStorage.getItem(KEY);
+    const verify = safeParse(verifyRaw, null);
+    if (!verify || !Array.isArray(verify.logs)) throw new Error('CLES storage verification failed');
+    if (verify.logs.length !== next.logs.length) throw new Error(`CLES storage count mismatch: expected ${next.logs.length}, got ${verify.logs.length}`);
+    return verify;
+  }
+
   function save(payload) {
     const current = load();
     const next = {
@@ -117,8 +138,28 @@ const CLESStorage = (() => {
       logs: dedupeLogs((payload.logs || current.logs || []).map(normalizeLog)),
       state: { ...current.state, ...(payload.state || {}) }
     };
-    localStorage.setItem(KEY, JSON.stringify(next));
-    return next;
+    return writeAndVerify(next);
+  }
+
+  function appendLog(log) {
+    const current = load();
+    const normalized = normalizeLog(log);
+    if (!normalized) throw new Error('Invalid CLES log');
+    const before = current.logs.length;
+    const next = save({ logs: [...current.logs, normalized], state: current.state });
+    const after = next.logs.length;
+    if (after !== before + 1) throw new Error(`CLES append verification failed: before=${before}, after=${after}`);
+    return { before, after, log: normalized };
+  }
+
+  function healthCheck() {
+    try {
+      const data = load();
+      const raw = localStorage.getItem(KEY);
+      return { ok: !!raw && Array.isArray(data.logs), key: KEY, logCount: data.logs.length, updatedAt: data.updated_at || '', origin: (typeof location !== 'undefined' ? location.origin : '') };
+    } catch (error) {
+      return { ok: false, key: KEY, logCount: 0, error: String(error && error.message || error), origin: (typeof location !== 'undefined' ? location.origin : '') };
+    }
   }
 
   function clearUserData() {
@@ -188,7 +229,7 @@ const CLESStorage = (() => {
       return { logCount: mergedLogs.length, format: 'legacy-object' };
     }
 
-    throw new Error('Unsupported J-CLES backup format');
+    throw new Error('Unsupported CLES backup format');
   }
 
   return {
@@ -197,6 +238,8 @@ const CLESStorage = (() => {
     schemaVersion: SCHEMA_VERSION,
     load,
     save,
+    appendLog,
+    healthCheck,
     clearUserData,
     exportBundle,
     importBundle

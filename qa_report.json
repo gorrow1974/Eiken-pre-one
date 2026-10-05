@@ -1,0 +1,91 @@
+{
+  "schema": "cles-qa-report",
+  "generated_at": "2026-08-17T13:45:22.059642+00:00",
+  "passed": true,
+  "error_count": 0,
+  "warning_count": 0,
+  "checks": [
+    {
+      "name": "JSON parse: data.json",
+      "ok": true,
+      "detail": "valid"
+    },
+    {
+      "name": "JSON parse: weekly.json",
+      "ok": true,
+      "detail": "valid"
+    },
+    {
+      "name": "JSON parse: today.json",
+      "ok": true,
+      "detail": "valid"
+    },
+    {
+      "name": "JSON parse: storage_spec.json",
+      "ok": true,
+      "detail": "valid"
+    },
+    {
+      "name": "Unique item IDs",
+      "ok": true,
+      "detail": "50 unique IDs"
+    },
+    {
+      "name": "Required item fields",
+      "ok": true,
+      "detail": "all present"
+    },
+    {
+      "name": "Weekly pack integrity",
+      "ok": true,
+      "detail": "5 packs valid"
+    },
+    {
+      "name": "No identical questions within a week",
+      "ok": true,
+      "detail": "no duplicates"
+    },
+    {
+      "name": "No duplicate sentences globally",
+      "ok": true,
+      "detail": "all unique"
+    },
+    {
+      "name": "Balanced Review type diversity",
+      "ok": true,
+      "detail": "5+ types included"
+    },
+    {
+      "name": "Today keys use MM-DD",
+      "ok": true,
+      "detail": "valid"
+    },
+    {
+      "name": "HTML referenced files exist",
+      "ok": true,
+      "detail": "all exist"
+    },
+    {
+      "name": "JavaScript syntax: app.js",
+      "ok": true,
+      "detail": "valid"
+    },
+    {
+      "name": "JavaScript syntax: storage_manager.js",
+      "ok": true,
+      "detail": "valid"
+    },
+    {
+      "name": "Storage runtime persistence",
+      "ok": true,
+      "detail": "PASS storage runtime: append/reload/export/count verification"
+    },
+    {
+      "name": "Version consistency",
+      "ok": true,
+      "detail": "app=1.7.0, html=1.7.0"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}
